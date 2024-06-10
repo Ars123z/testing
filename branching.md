@@ -10,6 +10,9 @@ git branch
 8. git branch -v -> to see the last commit on each branch
 9. git branch (--merged or --no-merged) -> to see the list of merged branch with the current branch
 10. git branch --move <branchname> <newbranchname> -> to change a branchname (git push --set-upstream origin main, git push origin --delete master) -> to push the corrected branchname to remote
+11. git checkout -b <branch> <remote>/<branch>. (to create a branch with remote tracking branch)
+12.  git branch -u <remote/branchname> (if you already have a branch)
+13. git branch -vv (to see tracking branches)
 
 
 git log <branchname> to show the commit history upto that branch
