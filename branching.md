@@ -16,6 +16,7 @@ git branch
 14. git fetch <remote> -> to fetch from the server server
 15. git merge <remote/branchname> -> to merge them
 16. git push <remote> <branchname> -> to push after merge
+17 git push <remote> --delete <branchname> -> to delete after merge 
 
 
 git log <branchname> to show the commit history upto that branch
