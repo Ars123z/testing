@@ -15,6 +15,7 @@ git branch
 13. git branch -vv (to see tracking branches)
 14. git fetch <remote> -> to fetch from the server server
 15. git merge <remote/branchname> -> to merge them
+16. git push <remote> <branchname> -> to push after merge
 
 
 git log <branchname> to show the commit history upto that branch
