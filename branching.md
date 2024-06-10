@@ -13,6 +13,7 @@ git branch
 11. git checkout -b <branch> <remote>/<branch>. (to create a branch with remote tracking branch)
 12.  git branch -u <remote/branchname> (if you already have a branch)
 13. git branch -vv (to see tracking branches)
+14. git fetch <remote> -> to fetch from the server server
 
 
 git log <branchname> to show the commit history upto that branch
