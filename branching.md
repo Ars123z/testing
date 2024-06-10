@@ -16,7 +16,8 @@ git branch
 14. git fetch <remote> -> to fetch from the server server
 15. git merge <remote/branchname> -> to merge them
 16. git push <remote> <branchname> -> to push after merge
-17 git push <remote> --delete <branchname> -> to delete after merge 
+17. git push <remote> --delete <branchname> -> to delete after merge 
+
 
 
 git log <branchname> to show the commit history upto that branch
@@ -28,3 +29,9 @@ git log --all to show all the commit history
 <!-- this comment is on the hotfix branch -->
 <!-- this commit in the github -->
 <!-- another -->
+
+Maintainer workflow
+============================
+Add the remote repo
+making local branch
+mergin with main
